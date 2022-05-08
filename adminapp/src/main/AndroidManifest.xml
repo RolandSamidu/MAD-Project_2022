@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BabyCare">
         <activity
+            android:name=".AddSpecialNoticeActivity"
+            android:exported="false" />
+        <activity
             android:name=".AdminHomeActivity"
             android:exported="false" />
         <activity

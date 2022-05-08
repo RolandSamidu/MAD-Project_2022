@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BabyCare</string>
+    <string name="baby_care">BabyCare</string>
+    <string name="C_H_D_R">CHDR</string>
+    <string name="Blog">Blog</string>
+    <string name="SpecialNotice">Special Notice</string>
+    <string name="HelpCenter">Help Center</string>
+    <string name="sign_in">Sign in</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="add_new_user">Add New User</string>
+    <string name="full_name">Full Name</string>
+    <string name="gender">Gender</string>
+    <string name="birth_date">Birth Date</string>
+    <string name="child_s_full_name">Child\'s Full Name</string>
+    <string name="mother_s_full_name">Mother\'s Full Name</string>
+    <string name="address">Address</string>
+</resources>

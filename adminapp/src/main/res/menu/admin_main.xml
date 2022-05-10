@@ -2,15 +2,12 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:title="Logout"
         android:id="@+id/logout"
+        android:title="@string/profile"
+        android:icon="@drawable/profile"
         app:showAsAction="ifRoom"
-        android:orderInCategory="2"></item>
+        android:orderInCategory="1">
 
-    <item
-        android:title="Back"
-        android:id="@+id/back"
-        app:showAsAction="ifRoom"
-        android:orderInCategory="1"></item>
+    </item>
 
 </menu>

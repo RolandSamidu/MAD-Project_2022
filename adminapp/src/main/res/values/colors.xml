@@ -11,4 +11,6 @@
     <color name="mainTopic">#762883</color>
     <color name="blue_shade_1">#0e2433</color>
     <color name="blue_shade_2">#1C4966</color>
+
+    <color name="logout">#4CAF50</color>
 </resources>

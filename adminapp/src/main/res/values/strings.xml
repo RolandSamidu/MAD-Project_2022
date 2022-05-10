@@ -11,4 +11,6 @@
     <string name="login">Login</string>
     <string name="create_new_account">Create New Account</string>
     <string name="sign_up">Sign Up</string>
+    <string name="logout">Logout</string>
+    <string name="profile">profile</string>
 </resources>

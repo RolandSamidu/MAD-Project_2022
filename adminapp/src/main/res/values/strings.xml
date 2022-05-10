@@ -13,4 +13,8 @@
     <string name="sign_up">Sign Up</string>
     <string name="logout">Logout</string>
     <string name="profile">profile</string>
+    <string name="child_health_development_report">Child Health Development Report</string>
+    <string name="immunization_record">Immunization Record</string>
+    <string name="mid_wife_can_add_to_immunization_records_to_the_application">Mid-wife can add to Immunization Records to the Application</string>
+    <string name="logo">logo</string>
 </resources>

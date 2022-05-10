@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BabyCare">
         <activity
+            android:name=".ImmunizationActivity"
+            android:exported="false" />
+        <activity
             android:name=".CHDRActivity"
             android:exported="false" />
         <activity

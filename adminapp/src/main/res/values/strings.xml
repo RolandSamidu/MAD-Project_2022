@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Admin app</string>
+    <string name="chdr">CHDR</string>
+    <string name="special_notice">Special Notice</string>
+    <string name="blog">Blog</string>
+    <string name="help_center">Help Center</string>
+    <string name="background">Background</string>
+    <string name="baby_care">Baby Care</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="sign_up">Sign Up</string>
 </resources>

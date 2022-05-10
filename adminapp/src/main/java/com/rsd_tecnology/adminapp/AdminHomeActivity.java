@@ -38,6 +38,14 @@ public class AdminHomeActivity extends AppCompatActivity {
         hc = findViewById(R.id.hc);
         logout = findViewById(R.id.logout);
 
+        report.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(AdminHomeActivity.this, CHDRActivity.class));
+                finish();
+            }
+        });
+
         logout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

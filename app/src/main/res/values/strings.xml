@@ -19,4 +19,14 @@
     <string name="child_s_full_name">Child\'s Full Name</string>
     <string name="mother_s_full_name">Mother\'s Full Name</string>
     <string name="address">Address</string>
+    <string name="immunization">Immunization</string>
+    <string name="place">Place</string>
+    <string name="date">Date</string>
+    <string name="child_health_development_record">Child Health Development Record</string>
+    <string name="health_record">Health Record</string>
+    <string name="profile">Profile</string>
+    <string name="immunization_details_about_your_baby">Immunization Details about your BABY</string>
+    <string name="important_health_details_about_your_baby">Important Health Details about your BABY</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="search">Search</string>
 </resources>

@@ -12,4 +12,7 @@
     <color name="mainTopic">#762883</color>
     <color name="blue_shade_1">#0e2433</color>
     <color name="blue_shade_2">#1C4966</color>
+
+    <color name="green">#1B4206</color>
+    <color name="topic">#3F2653</color>
 </resources>

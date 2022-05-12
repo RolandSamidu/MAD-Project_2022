@@ -32,6 +32,14 @@ public class CHDRActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        healthRecord.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(CHDRActivity.this, HealthReportActivity.class));
+                finish();
+            }
+        });
     }
 
     @Override

@@ -6,7 +6,7 @@
     app:cardCornerRadius="6dp"
     android:elevation="6dp"
     app:cardUseCompatPadding="true"
-    app:cardBackgroundColor="@color/main">
+    app:cardBackgroundColor="@color/card">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -47,6 +47,30 @@
             android:layout_marginLeft="10dp"
             android:layout_below="@+id/text_place"
             />
+
+        <LinearLayout
+            android:layout_below="@+id/text_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/edit"
+                android:textAllCaps="false"
+                android:layout_marginRight="15dp"
+                android:id="@+id/btnEdit"/>
+
+            <Button
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:text="@string/delete"
+                android:textAllCaps="false"
+                android:layout_marginLeft="15dp"
+                android:id="@+id/btnDelete"/>
+
+        </LinearLayout>
 
     </RelativeLayout>
 

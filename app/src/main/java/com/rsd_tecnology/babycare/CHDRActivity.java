@@ -10,7 +10,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class CHDRActivity extends AppCompatActivity {
-    private Button immunization, healthRecord, profile;
+    private Button immunization, healthRecord;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,7 +23,7 @@ public class CHDRActivity extends AppCompatActivity {
 
         immunization = findViewById(R.id.immunization);
         healthRecord = findViewById(R.id.healthRecord);
-        profile = findViewById(R.id.profile);
+
 
         immunization.setOnClickListener(new View.OnClickListener() {
             @Override

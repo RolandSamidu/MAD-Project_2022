@@ -15,4 +15,6 @@
 
     <color name="green">#1B4206</color>
     <color name="topic">#3F2653</color>
+    <color name="card">#C9C9CC</color>
+    <color name="logout">#4CAF50</color>
 </resources>

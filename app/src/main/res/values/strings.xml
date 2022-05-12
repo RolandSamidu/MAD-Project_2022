@@ -29,4 +29,12 @@
     <string name="important_health_details_about_your_baby">Important Health Details about your BABY</string>
     <string name="your_profile">Your Profile</string>
     <string name="search">Search</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="update">Update</string>
+    <string name="update_details">Update Details</string>
+    <string name="add_immunization_details">Add Immunization Details</string>
+    <string name="submit">Submit</string>
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
 </resources>

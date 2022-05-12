@@ -10,10 +10,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
+
+import com.google.firebase.auth.FirebaseAuth;
 
 public class CustomerHomeActivity extends AppCompatActivity {
     private Button report;
     private Button blog;
+    private Button logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +30,7 @@ public class CustomerHomeActivity extends AppCompatActivity {
 
         report = findViewById(R.id.report);
         blog = findViewById(R.id.Blog);
+        logout = findViewById(R.id.logout);
 
         report.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +46,16 @@ public class CustomerHomeActivity extends AppCompatActivity {
                 startActivity(new Intent(CustomerHomeActivity.this , BlogActivity.class));
             }
         });
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FirebaseAuth.getInstance().signOut();
+                Toast.makeText(CustomerHomeActivity.this, "Logout!", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(CustomerHomeActivity.this, MainActivity.class));
+            }
+        });
+
     }
 
     @Override

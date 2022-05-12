@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginTop="8dp"
+    android:minHeight="50dp"
+    app:cardBackgroundColor="#F5F69DF3"
+    app:cardCornerRadius="15dp"
+    app:contentPadding="10dp"
+    >
+    <TextView
+        android:layout_width="20dp"
+        android:layout_height="30dp"
+        android:text="&#8942;"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:id="@+id/optiontext"
+        android:layout_gravity="right"
+
+
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/questiontext"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reply"
+            android:textSize="18sp"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/replytext"
+            />
+
+
+
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
